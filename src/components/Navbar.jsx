@@ -8,7 +8,7 @@ import { AiOutlineBell } from "react-icons/ai";
 import { ImYoutube2 } from "react-icons/im";
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-6 py-2">
+    <div className="flex justify-between px-6 py-2 fixed top-0 left-0 right-0">
       <div className="flex items-center space-x-4 ">
         <AiOutlineMenu className="text-xl cursor-pointer" />
         {/* <ImYoutube2 className='text-red-900 w-'/> */}
